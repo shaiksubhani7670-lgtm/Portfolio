@@ -1,0 +1,79 @@
+Build a complete, polished personal portfolio website for **Shaik Subhani**, a final-year B.Tech Artificial Intelligence and Machine Learning student. Make it feel like a premium portfolio designed for a real early-career AI/software developer—not a generic student template.
+
+## Design direction
+
+Create a bright, refined **light-theme-only** website with a premium editorial feel.
+
+- Use white and soft off-white backgrounds, charcoal text, subtle gray borders, and restrained blue accents. Soft lavender or cyan can appear sparingly.
+- Use generous whitespace, strong typography, clean alignment, rounded cards, and gentle shadows.
+- Use tasteful 2D visual details such as thin-line diagrams, small dots, soft gradients, and abstract AI nodes.
+- Keep the design confident, warm, professional, and easy to scan.
+- Make the layout feel custom to an AI/ML student who builds practical software.
+
+**Strictly avoid:** 3D, WebGL, Three.js, dark mode, dark sections, black backgrounds, cyberpunk styling, excessive neon, distracting motion, and generic template visuals.
+
+## My details
+
+- **Name:** Shaik Subhani
+- **Role:** Final-year B.Tech student — Artificial Intelligence and Machine Learning
+- **College:** Geethanjali institute of science and technology
+- **Location:** Andhra Pradesh, India
+- **Expected graduation:** 2027
+- **Email:** shaikakthar527@gmail.com
+- **GitHub:** https://github.com/shaiksubhani7670-lgtm
+- **LinkedIn:** https://www.linkedin.com/in/shaik-subhani-60a725390/
+- **Interests:** AI, machine learning, computer vision, Python, and building useful software.
+- **Confirmed skills:** Python, JavaScript, HTML, CSS, Flask, SQLite.
+- **Resume:** I will add my PDF later. Do not invent a resume link; show the resume button only when a resume file is available.
+
+Use my attached portrait if accessible. Crop it cleanly and professionally, keep my appearance natural, and do not generate or substitute a fake portrait. If the image is unavailable, use a tasteful neutral placeholder that is easy to replace.
+
+## Page structure
+
+Build a responsive single-page portfolio with:
+
+1. **Sticky navigation** with my name or initials and links to About, Skills, Projects, Journey, and Contact. Include GitHub, LinkedIn, and email links. Add an accessible mobile menu.
+2. **Hero section** with a clear introduction, portrait, and a refined 2D AI-themed visual. Use this headline or improve it without changing its meaning:  
+   **“I’m Shaik Subhani — building practical solutions with AI and software.”**  
+   Add concise supporting copy and buttons for **Explore Projects** and **Contact Me**.
+3. **About section** describing me as a final-year AI/ML student who enjoys building practical applications and learning through projects.
+4. **Focus areas** for AI and machine learning, Python development, web development, and problem-solving. Present these as areas of interest, not claims of professional experience.
+5. **Skills section** using clean categorized tags. Show the confirmed skills above; do not add unverified proficiency scores or percentages.
+6. **Featured project: FindIt Campus**, with a detailed, visually strong project card and a custom 2D product mockup.
+7. **Other projects** for AI Smart College Assistant, Character Counter, and Online Course Management System.
+8. **Education / Journey section** showing only the education details provided above. Leave room for me to add real milestones later.
+9. **Contact section** with a mail link, GitHub, and LinkedIn.
+10. **Light footer** with section links and a simple copyright notice.
+
+## Featured project: FindIt Campus
+
+- **Live demo:** https://findit-campus-pi.vercel.app/
+- **Summary:** An AI-powered campus lost-and-found platform that helps people report lost or found items and find possible matches through image comparison.
+- **Showcase flow:** Report an item → upload an image → compare visual features → display possible matches.
+- **Potential technologies to verify:** Python, Flask, HTML, CSS, JavaScript, SQLite, BLIP, Google SigLIP, and FAISS.
+
+Before describing BLIP, Google SigLIP, or FAISS as implemented technologies, inspect the project repository or configuration if available. Include only technologies confirmed by the code or project documentation. If you cannot verify them, leave them out or label them as technologies to confirm. Do not invent accuracy scores, user counts, results, or features.
+
+Display the live demo link. I have not provided a FindIt Campus repository link, so do not invent one. Hide any unavailable project buttons cleanly.
+
+## Other projects
+
+Include these project names in editable project data:
+
+- **AI Smart College Assistant**
+- **Character Counter**
+- **Online Course Management System**
+
+I have not provided descriptions, technology stacks, or links for these projects yet. Keep those fields editable and do not make up project details or links. If needed, show a restrained “Details coming soon” label instead of fabricated claims.
+
+## Motion and interaction
+
+Use subtle, purposeful **2D** animation: gentle section reveals, staggered card entrances, small hover lifts, smooth anchor scrolling, and restrained button feedback. Keep movement calm and quick. Respect `prefers-reduced-motion` and provide visible keyboard focus states. Avoid endless or distracting animation.
+
+## Implementation
+
+First inspect the existing project and preserve its working setup. If starting from scratch, use React, TypeScript, and Vite, with Tailwind CSS if appropriate. Use reusable components and keep profile, social, skills, and project content in easy-to-edit data files. Use Lucide icons if an icon library is needed.
+
+Make the site work well on desktop, tablet, and mobile with no horizontal overflow. Use semantic HTML, accessible labels, sensible heading order, image alt text, and appropriate page metadata. Do not add a contact form that pretends to send messages without a working service; use a `mailto:` link instead.
+
+Build the full page, run the app, and fix any build errors or visibly broken layouts. Keep all claims honest and easy for me to update.
