@@ -8,7 +8,7 @@ export const Skills: React.FC = () => {
   const categoryIcons = [Terminal, Layers, Database, ShieldCheck];
 
   return (
-    <section id="skills" className="section" style={{ backgroundColor: '#ffffff' }}>
+    <section id="skills" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         {/* Section Header */}
         <div style={{ marginBottom: '3rem' }}>
@@ -16,7 +16,7 @@ export const Skills: React.FC = () => {
             <CheckCircle2 size={14} />
             <span>Technical Capabilities</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             Skills & Working Technologies
           </h2>
           <p className="section-desc">

@@ -6,7 +6,7 @@ export const About: React.FC = () => {
   const { about, profile } = portfolioData;
 
   return (
-    <section id="about" className="section" style={{ backgroundColor: '#ffffff' }}>
+    <section id="about" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         {/* Section Header */}
         <div style={{ marginBottom: '3rem' }}>
@@ -14,7 +14,7 @@ export const About: React.FC = () => {
             <UserCheck size={14} />
             <span>About Me</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             Engineering real-world utility with AI & code.
           </h2>
           <p className="section-desc">
@@ -62,8 +62,8 @@ export const About: React.FC = () => {
                   className="card-base"
                   style={{
                     padding: '1.25rem',
-                    backgroundColor: 'var(--bg-secondary)',
-                    borderColor: 'var(--border-subtle)',
+                    backgroundColor: '#FFFFFF',
+                    borderColor: 'var(--border-light)',
                   }}
                 >
                   <div
@@ -82,12 +82,12 @@ export const About: React.FC = () => {
                         width: '8px',
                         height: '8px',
                         borderRadius: '50%',
-                        backgroundColor: 'var(--accent-blue)',
+                        backgroundColor: 'var(--accent-terracotta)',
                       }}
                     />
                     {val.title}
                   </div>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--text-tertiary)', lineHeight: 1.5 }}>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
                     {val.desc}
                   </p>
                 </div>
@@ -100,9 +100,10 @@ export const About: React.FC = () => {
             className="card-base"
             style={{
               padding: '1.75rem',
-              backgroundColor: 'var(--bg-card)',
+              backgroundColor: '#FFFFFF',
               position: 'relative',
               overflow: 'hidden',
+              borderColor: 'var(--border-light)',
             }}
           >
             {/* Top decorative accent line */}
@@ -113,7 +114,7 @@ export const About: React.FC = () => {
                 left: 0,
                 right: 0,
                 height: '4px',
-                background: 'linear-gradient(90deg, var(--accent-blue), #38bdf8)',
+                background: 'linear-gradient(90deg, var(--accent-terracotta), #D97706)',
               }}
             />
 
@@ -126,9 +127,10 @@ export const About: React.FC = () => {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.5rem',
+                fontFamily: 'var(--font-serif)',
               }}
             >
-              <Compass size={18} style={{ color: 'var(--accent-blue)' }} />
+              <Compass size={18} style={{ color: 'var(--accent-terracotta)' }} />
               <span>Snapshot at a Glance</span>
             </h3>
 

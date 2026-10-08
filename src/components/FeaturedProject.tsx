@@ -59,10 +59,10 @@ export const FeaturedProject: React.FC = () => {
           <div style={{ padding: '0.75rem', backgroundColor: '#f8fafc', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.35rem' }}>
               <span style={{ fontSize: '0.75rem', fontWeight: 600, color: '#0f172a' }}>Visual Feature Distance Matrix</span>
-              <span style={{ fontSize: '0.7rem', color: '#2563eb', fontWeight: 600 }}>Vector Evaluation</span>
+              <span style={{ fontSize: '0.7rem', color: 'var(--accent-terracotta)', fontWeight: 600 }}>Vector Evaluation</span>
             </div>
             <div style={{ height: '6px', width: '100%', backgroundColor: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
-              <div style={{ height: '100%', width: '88%', backgroundColor: '#2563eb', borderRadius: '3px' }} />
+              <div style={{ height: '100%', width: '88%', backgroundColor: 'var(--accent-terracotta)', borderRadius: '3px' }} />
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.7rem', color: '#64748b', marginTop: '0.35rem' }}>
               <span>Comparison against recent found listings</span>
@@ -100,7 +100,7 @@ export const FeaturedProject: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="section" style={{ backgroundColor: '#ffffff' }}>
+    <section id="projects" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         {/* Section Header */}
         <div style={{ marginBottom: '3rem' }}>
@@ -108,7 +108,7 @@ export const FeaturedProject: React.FC = () => {
             <Sparkles size={14} />
             <span>Featured Project</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             FindIt Campus — AI Lost & Found System
           </h2>
           <p className="section-desc">
@@ -121,9 +121,10 @@ export const FeaturedProject: React.FC = () => {
           className="card-base"
           style={{
             padding: '2.25rem',
-            backgroundColor: 'var(--bg-card)',
+            backgroundColor: '#FFFFFF',
             boxShadow: 'var(--shadow-card)',
             marginBottom: '3.5rem',
+            borderColor: 'var(--border-light)',
           }}
         >
           <div

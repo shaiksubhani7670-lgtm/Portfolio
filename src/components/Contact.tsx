@@ -37,7 +37,7 @@ export const Contact: React.FC = () => {
               left: 0,
               right: 0,
               height: '4px',
-              background: 'linear-gradient(90deg, #2563eb, #38bdf8, #818cf8)',
+              background: 'linear-gradient(90deg, var(--accent-terracotta), #D97706, #BA5D38)',
             }}
           />
 
@@ -51,6 +51,7 @@ export const Contact: React.FC = () => {
 
           <h2
             style={{
+              fontFamily: 'var(--font-serif)',
               fontSize: 'clamp(1.75rem, 3.5vw, 2.35rem)',
               fontWeight: 800,
               color: 'var(--text-primary)',

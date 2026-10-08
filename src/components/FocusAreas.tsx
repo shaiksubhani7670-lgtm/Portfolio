@@ -21,7 +21,7 @@ export const FocusAreas: React.FC = () => {
             <Brain size={14} />
             <span>Focus Areas</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             Areas of Exploration & Applied Interest
           </h2>
           <p className="section-desc">

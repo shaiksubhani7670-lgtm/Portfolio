@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
   return (
     <footer
       style={{
-        backgroundColor: '#ffffff',
+        backgroundColor: 'var(--bg-primary)',
         borderTop: '1px solid var(--border-light)',
         padding: '3rem 0 2rem 0',
       }}
@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
                   width: '2rem',
                   height: '2rem',
                   borderRadius: '6px',
-                  backgroundColor: 'var(--accent-blue)',
+                  backgroundColor: 'var(--accent-terracotta)',
                   color: '#ffffff',
                   display: 'flex',
                   alignItems: 'center',

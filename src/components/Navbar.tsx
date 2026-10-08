@@ -34,11 +34,11 @@ export const Navbar: React.FC = () => {
         top: 0,
         zIndex: 50,
         transition: 'all var(--transition-normal)',
-        backgroundColor: isScrolled ? 'rgba(255, 255, 255, 0.94)' : 'rgba(255, 255, 255, 0.8)',
+        backgroundColor: isScrolled ? 'rgba(250, 247, 242, 0.96)' : 'rgba(250, 247, 242, 0.88)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
-        borderBottom: isScrolled ? '1px solid var(--border-light)' : '1px solid transparent',
-        boxShadow: isScrolled ? '0 1px 10px rgba(15, 23, 42, 0.05)' : 'none',
+        borderBottom: '1px solid var(--border-light)',
+        boxShadow: isScrolled ? '0 1px 12px rgba(44, 38, 35, 0.05)' : 'none',
       }}
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '4.5rem' }}>
@@ -57,8 +57,8 @@ export const Navbar: React.FC = () => {
             style={{
               width: '2.5rem',
               height: '2.5rem',
-              borderRadius: 'var(--radius-md)',
-              backgroundColor: 'var(--accent-blue)',
+              borderRadius: '10px',
+              backgroundColor: 'var(--accent-terracotta)',
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -66,7 +66,7 @@ export const Navbar: React.FC = () => {
               fontWeight: 800,
               fontSize: '1rem',
               letterSpacing: '-0.02em',
-              boxShadow: '0 2px 8px rgba(37, 99, 235, 0.25)',
+              boxShadow: '0 2px 8px rgba(186, 93, 56, 0.28)',
             }}
           >
             SS
@@ -175,7 +175,7 @@ export const Navbar: React.FC = () => {
       {mobileMenuOpen && (
         <div
           style={{
-            backgroundColor: '#ffffff',
+            backgroundColor: 'var(--bg-primary)',
             borderBottom: '1px solid var(--border-light)',
             padding: '1.25rem 1.5rem',
             boxShadow: 'var(--shadow-lg)',

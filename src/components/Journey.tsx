@@ -6,7 +6,7 @@ export const Journey: React.FC = () => {
   const { journey } = portfolioData;
 
   return (
-    <section id="journey" className="section" style={{ backgroundColor: '#ffffff' }}>
+    <section id="journey" className="section" style={{ backgroundColor: 'var(--bg-primary)' }}>
       <div className="container">
         {/* Section Header */}
         <div style={{ marginBottom: '3rem' }}>
@@ -14,7 +14,7 @@ export const Journey: React.FC = () => {
             <GraduationCap size={14} />
             <span>Academic Journey</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             Education & Foundation
           </h2>
           <p className="section-desc">

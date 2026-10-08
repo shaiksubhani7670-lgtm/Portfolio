@@ -14,7 +14,7 @@ export const OtherProjects: React.FC = () => {
             <FolderGit2 size={14} />
             <span>Project Index</span>
           </div>
-          <h2 className="section-title">
+          <h2 className="section-title" style={{ fontFamily: 'var(--font-serif)' }}>
             Other Projects & Prototypes
           </h2>
           <p className="section-desc">
